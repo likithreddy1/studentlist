@@ -1,0 +1,85 @@
+/* StudentTable.css */
+.table-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .student-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .student-table th,
+  .student-table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .student-table th {
+    background-color: blueviolet;
+    color: white;
+  }
+  
+  .student-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .student-table tr:hover {
+    background-color: #ddd;
+  }
+  .edit-btn {
+    background-color: #4CAF50;  /* Green background */
+    color: white;               /* White text */
+    border: none;               /* Remove border */
+    padding: 10px 20px;         /* Add padding */
+    text-align: center;         /* Center text */
+    text-decoration: none;      /* Remove underline */
+    display: inline-block;      /* Display inline-block for button like behavior */
+    font-size: 16px;            /* Font size */
+    border-radius: 5px;         /* Rounded corners */
+    cursor: pointer;           /* Pointer cursor on hover */
+    transition: background-color 0.3s ease;  /* Smooth transition */
+  }
+  
+  .edit-btn:hover {
+    background-color: #45a049;  /* Darker green when hovered */
+  }
+  /* Delete Button */
+.delete-button {
+    background-color: #e74c3c;   /* Red background */
+    color: white;                 /* White text */
+    border: none;                 /* Remove border */
+    padding: 12px 24px;           /* Padding */
+    font-size: 16px;              /* Font size */
+    text-align: center;           /* Center text */
+    text-decoration: none;        /* Remove underline */
+    display: inline-block;        /* Inline block display */
+    border-radius: 5px;           /* Rounded corners */
+    cursor: pointer;             /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition */
+  }
+  
+  .delete-button:hover {
+    background-color: #c0392b;   /* Darker red when hovered */
+    transform: scale(1.05);       /* Slight zoom effect */
+  }
+  
+  .delete-button:focus {
+    outline: none;                /* Remove the outline when focused */
+    box-shadow: 0 0 0 3px rgba(231, 76, 60, 0.5);  /* Add a glowing effect */
+  }
+  
+  .delete-button:active {
+    background-color: #e74c3c;   /* Keep background color when pressed */
+    transform: scale(0.98);       /* Slight shrink effect when clicked */
+  }
+  
